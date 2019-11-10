@@ -23,4 +23,29 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.42" />
 
+    <Button
+        android:id="@+id/btnViagem"
+        android:layout_width="165dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginBottom="84dp"
+        android:onClick="click"
+        android:text="@string/buscar_viagem"
+        app:layout_constraintBottom_toTopOf="@+id/btnRastrear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLogin" />
+
+    <Button
+        android:id="@+id/btnRastrear"
+        android:layout_width="165dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginBottom="223dp"
+        android:text="@string/rastrear_veiculo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnViagem" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

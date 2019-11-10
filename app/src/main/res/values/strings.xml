@@ -3,4 +3,10 @@
     <string name="email_email_com">email@email.com</string>
     <string name="senha">senha</string>
     <string name="button">Button</string>
+    <string name="nome_motorista">Nome Motorista</string>
+    <string name="data_da_viagem">Data da viagem</string>
+    <string name="local_da_viagem_km_saida_veiculo">Local da viagem, KM saida veiculo</string>
+    <string name="buscar">Buscar</string>
+    <string name="rastrear_veiculo">Rastrear Veiculo</string>
+    <string name="buscar_viagem">Buscar Viagem</string>
 </resources>
