@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MenuActivity extends AppCompatActivity {
 
@@ -25,5 +26,9 @@ public class MenuActivity extends AppCompatActivity {
     public void click(View view) {
         Intent intent = new Intent(this, ViagemActivity.class);
         startActivity(intent);
+    }
+
+    public void click1(View view){
+        Toast.makeText(this, "Não possui equipamentos de rastreio!", Toast.LENGTH_SHORT).show();
     }
 }

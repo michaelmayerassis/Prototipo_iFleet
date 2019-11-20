@@ -97,7 +97,6 @@ public class ViagemActivity extends AppCompatActivity {
     }
 
     public void click(View view) {
-        Viagem a = new Viagem();
         Spinner spinner = (Spinner) findViewById(R.id.txtPlaca);
         TextView moto = (TextView) findViewById(R.id.txtMotorista);
         TextView local = (TextView) findViewById(R.id.txtLocal);
